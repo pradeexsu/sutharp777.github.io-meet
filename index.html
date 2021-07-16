@@ -14,8 +14,9 @@
 </head>
 
 <body>
-    <canvas id="canvas" width="100" height="100"></canvas>
+
     <div class="container">
+        <canvas id="canvas" width="100" height="100"></canvas>
         <div class="main_container">
             <div class="page main active">
                 <img src="./assets/profile.jpg" alt="Pradeep's profile picture" />
@@ -78,60 +79,67 @@
                 </div>
             </div>
 
-            <div class="page sideprojects" style="margin-top:180px ;">
-                <h2>Projects
-                    <img src="./assets/project.png" alt="projects" height="150" style="margin-bottom: -60px;">
-                </h2>
-
-                <div class="icon_container" style="margin-top:220px ; margin-bottom: 50px;">
-                    <div>
-                        <img class="sp_img" src="./assets/my ide.gif" alt="online ide deployed on heroku" />
-                    </div>
-                    <span>
-                    <span class="place">Online IDE Web Application: </span>
-                    <span>
-                        NodeJS, Express, MongoDB Web Application, which uses RESTful API, MongoDB Atlas for Storage Cloud and Azure Web Apps for hosting, and Code-mirror framework for Front-end, it supports over 28 language with unique syntax highlighting. <a target="_blank" href="https://github.com/sutharp777/ide-seven-x">code & screenshots</a>. deployed on <a target="_blank" href="https://ide-seven-pradeep.azurewebsites.net/">Azure Web Apps</a>.</span>
-                    </span>
+            <div class="page sideprojects">
+                <div class="title-wraper">
+                    <h2>Projects</h2>
+                    <img src="./assets/project.png" alt="projects" height="150">
                 </div>
 
-                <div class="icon_container" style="margin-top:250px ;">
-                    <div>
-                        <img class="sp_img" src="./assets/2048.gif" alt="Mine-Sweeper Game" />
+                <div class="content-wrapper">
+
+                    <div class="icon_container">
+                        <div>
+                            <img class="sp_img" src="./assets/my ide.gif" alt="online ide deployed on heroku" />
+                        </div>
+                        <span>
+                        <span class="place">Online IDE Web Application: </span>
+                        <span>
+                            NodeJS, Express, MongoDB Web Application, which uses RESTful API, MongoDB Atlas for Storage Cloud and Azure Web Apps for hosting, and Code-mirror framework for Front-end, it supports over 28 language with unique syntax highlighting. <a target="_blank" href="https://github.com/sutharp777/ide-seven-x">code & screenshots</a>. deployed on <a target="_blank" href="https://ide-seven-pradeep.azurewebsites.net/">Azure Web Apps</a>.</span>
+                        </span>
                     </div>
-                    <span>
-                    <span class="place"> 2048 Game: </span>
-                    <span>a single-player sliding tile puzzle game written in html, css and Js, algorithm
-                        designed in JavaScript.<a target="_blank" href="https://github.com/sutharp777/2048">code & screenshots</a>, hosted on GitHub Pages - <a target="_blank" href="https://sutharp777.github.io/2048/">play 2048</a>.</span>
-                    </span>
+
+                    <div class="icon_container">
+                        <div>
+                            <img class="sp_img" src="./assets/2048.gif" alt="Mine-Sweeper Game" />
+                        </div>
+                        <span>
+                        <span class="place"> 2048 Game: </span>
+                        <span>a single-player sliding tile puzzle game written in html, css and Js, algorithm
+                            designed in JavaScript.<a target="_blank" href="https://github.com/sutharp777/2048">code & screenshots</a>, hosted on GitHub Pages - <a target="_blank" href="https://sutharp777.github.io/2048/">play 2048</a>.</span>
+                        </span>
+                    </div>
+
+                    <div class="icon_container">
+                        <div>
+                            <img class="sp_img" src="./assets/tic-tac-toe.gif" alt="Mine-Sweeper Game" />
+                        </div>
+                        <span>
+                        <span class="place"> Unbeatable Tic Tac Toe: </span>
+                        <span>An Web Game is buid using jQuery and unbeatable tic tac toe algorithm in js.
+                            <a target="_blank" href="https://github.com/sutharp777/tic-tac-toe">code & screenshots</a> or want to <a target="_blank" href="https://sutharp777.github.io/tic-tac-toe/">play tic tac toe</a>.</span>
+                        </span>
+                    </div>
+
+                    <div class="icon_container">
+                        <div>
+                            <img class="sp_img" src="./assets/minesweeper.gif" alt="Mine-Sweeper Game" />
+                        </div>
+                        <span>
+                        <span class="place"> MineSweeper Game: </span>
+                        <span> C++ cross-platform desktop application using wxWidgest framework, 
+                         <a target="_blank" href="https://github.com/sutharp777/minesweeper">code & screenshots</a>.</span>
+                        </span>
+                    </div>
                 </div>
 
-                <div class="icon_container" style="margin-top:270px ;">
-                    <div>
-                        <img class="sp_img" src="./assets/tic-tac-toe.gif" alt="Mine-Sweeper Game" />
-                    </div>
-                    <span>
-                    <span class="place"> Unbeatable Tic Tac Toe: </span>
-                    <span>An Web Game is buid using jQuery and unbeatable tic tac toe algorithm in js.
-                        <a target="_blank" href="https://github.com/sutharp777/tic-tac-toe">code & screenshots</a> or want to <a target="_blank" href="https://sutharp777.github.io/tic-tac-toe/">play tic tac toe</a>.</span>
-                    </span>
-                </div>
-
-                <div class="icon_container" style="margin-top:250px ;">
-                    <div>
-                        <img class="sp_img" src="./assets/minesweeper.gif" alt="Mine-Sweeper Game" />
-                    </div>
-                    <span>
-                    <span class="place"> MineSweeper Game: </span>
-                    <span> C++ cross-platform desktop application using wxWidgest framework, 
-                     <a target="_blank" href="https://github.com/sutharp777/minesweeper">code & screenshots</a>.</span>
-                    </span>
-                </div>
-
-                <p style="margin-top:200px ;">
+                <p class="project-footer">
                     You can also check the stuff I've done lately at my
                     <a target="_blank" href="https://github.com/sutharp777/">@projects</a> profile
                 </p>
             </div>
+
+
+
             <div class="page hobbies" style="margin-top: 200px;">
                 <h2>Hobbies
                     <img src="./assets/hobbie.png" alt="myhobbies" height="150" style="margin-bottom: -50px;">
