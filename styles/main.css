@@ -3,6 +3,7 @@ body {
     height: 100%;
     position: absolute;
     font-family: "Roboto", arial, sans-serif;
+    /* opacity: 0; */
 }
 
 .pc {
@@ -22,7 +23,7 @@ body {
     display: grid;
     -webkit-box-align: center;
     align-items: center;
-    background-color: #ffffff;
+    background-color: #ffffff00;
     position: relative;
     overflow-y: auto;
 }
